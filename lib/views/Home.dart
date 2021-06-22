@@ -13,7 +13,7 @@ class _HomeState extends State<Home> {
     var size = MediaQuery.of(context).size;
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.white,
+          backgroundColor: Color(0XFFFFF5EE),
           elevation: 0,
           leading: Icon(Icons.arrow_back_ios, color: Colors.black),
           actions: [
@@ -314,9 +314,7 @@ class _HomeState extends State<Home> {
           ),
         ),
         bottomNavigationBar: new Theme(
-          data: Theme.of(context).copyWith(
-            canvasColor: Colors.white,
-          ),
+          data: Theme.of(context).copyWith(canvasColor: Color(0XFFFFF5EE)),
           child: BottomNavigationBar(
               elevation: 0,
               items: const <BottomNavigationBarItem>[
